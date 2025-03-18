@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\checkout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\checkout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\checkout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\stylesheet\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\stylesheet\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|C:\\Users\\DELL\\source\\repos\\Ecommerce\\ecommerce\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|C:\\Users\\DELL\\source\\repos\\Ecommerce\\ecommerce\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|C:\\Users\\DELL\\source\\repos\\Ecommerce\\ecommerce\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\stylesheet\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\stylesheet\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|C:\\Users\\DELL\\source\\repos\\Ecommerce\\ecommerce\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|C:\\Users\\DELL\\source\\repos\\Ecommerce\\ecommerce\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|C:\\Users\\DELL\\source\\repos\\Ecommerce\\ecommerce\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|c:\\users\\dell\\source\\repos\\ecommerce\\ecommerce\\cart.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5795749D-D797-44CC-A8C9-0353584B8D20}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\cart.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Checkout.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\stylesheet\\Checkout.css",
+              "RelativeDocumentMoniker": "Ecommerce\\stylesheet\\Checkout.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\stylesheet\\Checkout.css",
+              "RelativeToolTip": "Ecommerce\\stylesheet\\Checkout.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-18T07:07:22.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\CartItem.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\CartItem.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\CartItem.cs",
+              "RelativeToolTip": "Ecommerce\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:53:22.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Checkout.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Checkout.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Checkout.aspx.cs",
+              "RelativeToolTip": "Ecommerce\\Checkout.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwDwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:17:37.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkout.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Checkout.aspx",
+              "RelativeDocumentMoniker": "Ecommerce\\Checkout.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Checkout.aspx",
+              "RelativeToolTip": "Ecommerce\\Checkout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-18T06:15:36.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\stylesheet\\Cart.css",
+              "RelativeDocumentMoniker": "Ecommerce\\stylesheet\\Cart.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\stylesheet\\Cart.css",
+              "RelativeToolTip": "Ecommerce\\stylesheet\\Cart.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-18T06:06:50.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Cart.aspx",
+              "RelativeDocumentMoniker": "Ecommerce\\Cart.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Cart.aspx",
+              "RelativeToolTip": "Ecommerce\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-13T05:57:22.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Cart.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Cart.aspx.cs",
+              "RelativeToolTip": "Ecommerce\\Cart.aspx.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAQwAQBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:11:54.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Loginpage.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Loginpage.aspx",
+              "RelativeDocumentMoniker": "Ecommerce\\Loginpage.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Loginpage.aspx",
+              "RelativeToolTip": "Ecommerce\\Loginpage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-08T04:33:11.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Products.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Products.aspx",
+              "RelativeDocumentMoniker": "Ecommerce\\Products.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Products.aspx",
+              "RelativeToolTip": "Ecommerce\\Products.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-13T16:53:57.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Products.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Products.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Products.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Products.aspx.cs",
+              "RelativeToolTip": "Ecommerce\\Products.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:57:21.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\HomePage.aspx",
+              "RelativeDocumentMoniker": "Ecommerce\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\HomePage.aspx",
+              "RelativeToolTip": "Ecommerce\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-09T17:30:05.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Loginpage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Loginpage.aspx.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Loginpage.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Loginpage.aspx.cs",
+              "RelativeToolTip": "Ecommerce\\Loginpage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:37:48.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cart.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Cart.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Cart.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ecommerce\\Ecommerce\\Cart.aspx.designer.cs",
+              "RelativeToolTip": "Ecommerce\\Cart.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:40:35.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9lpqEH-UnBI3PAYhpUhN88mf_fstcC2f8UA&s');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+/* Center the form container */
+.form-container {
+    width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    /* Form heading */
+    .form-container h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+/* Style for input containers */
+.input-container {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+    /* Style the labels */
+    .input-container label {
+        display: block;
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    /* Style the input fields */
+    .input-container input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+        /* Focus effect for input fields */
+        .input-container input:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+        }
+
+/* Style the Sign Up button */
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* Hover effect for the Sign Up button */
+    .signup-btn:hover {
+        background-color: #45a049;
+    }
+
+/* Style for the login link */
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+    /* Style the login link */
+    .login-link a {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+
+        /* Hover effect for the login link */
+        .login-link a:hover {
+            text-decoration: underline;
+        }

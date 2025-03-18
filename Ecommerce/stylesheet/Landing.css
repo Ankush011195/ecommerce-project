@@ -1,0 +1,108 @@
+﻿/* General Styles */
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    header .logo a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    header .navbar {
+        margin-top: 10px;
+    }
+
+        header .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            header .navbar ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+                header .navbar ul li a {
+                    color: white;
+                    text-decoration: none;
+                }
+
+/* Full-screen background image */
+.background-image {
+    background-image: url('../images/landingimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Transparent box at the center */
+.center-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+    /* Big text in the center */
+    .center-box h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+/* Styling for the Show Now button */
+.show-now-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+    /* Button hover effect */
+    .show-now-btn:hover {
+        background-color: #45a049;
+    }
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+    footer .footer-links {
+        margin-bottom: 10px;
+    }
+
+        footer .footer-links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+    footer p {
+        margin-top: 10px;
+    }
+
+
