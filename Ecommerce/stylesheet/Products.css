@@ -5,6 +5,14 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0; /* Removes default margin */
+}
+
 
 /* Header */
 header {
@@ -12,7 +20,25 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    display:flex;
+    justify-content:space-between;
 }
+.back-arrow {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    background: #f8f9fa;
+    padding: 8px 12px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.2s;
+}
+
+    .back-arrow:hover {
+        background: #ddd;
+        transform: scale(1.1);
+    }
+
 
 /* Search Bar */
 .search-bar {
@@ -20,14 +46,14 @@ header {
     text-align: center;
 }
 
-    .search-bar input {
+    .search-input {
         width: 250px;
         padding: 10px;
         border: 1px solid #ddd;
         border-radius: 5px;
     }
 
-    .search-bar button {
+    .search-button {
         padding: 10px 15px;
         background-color: #ff6600;
         color: white;
@@ -169,7 +195,7 @@ header {
     cursor: pointer;
     width: 100%;
     max-width: 150px;
-    margin-top: 10px; /* Creates space between buttons */
+    margin-top: 15px; /* Creates space between buttons */
 }
 
 .buy-now-button:hover {

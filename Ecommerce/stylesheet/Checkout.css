@@ -262,3 +262,13 @@ legend {
     font-size: 14px;
     margin-top: 10px;
 }
+.upi-qr-code {
+    max-width: 100%; /* Ensures the image does not overflow the container */
+    width: 150px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevents distortion */
+    display: block;
+    margin: 10px auto; /* Centers the image */
+    border-radius: 8px; /* Optional: rounded corners */
+    border: 1px solid #ddd; /* Optional: light border */
+}

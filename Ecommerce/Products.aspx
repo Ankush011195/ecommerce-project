@@ -9,12 +9,15 @@
 </head>
 <body>
      <form id="form1" runat="server">
+          <h1>Our Products</h1>
      <header>
-        <h1>Our Products</h1>
+          <a href="javascript:history.back();" class="back-arrow">&#8592;</a>
+       
         <div class="search-bar">
-            <input type="text" id="txtSearch" placeholder="Search products..." />
-            <button id="btnSearch" runat="server" onserverclick="SearchProducts">Search</button>
-        </div>
+    <asp:TextBox ID="txtSearch" runat="server" CssClass="search-input" placeholder="Search products..."></asp:TextBox>
+    <asp:Button ID="btnSearch" runat="server" Text="Search" CssClass="search-button" OnClick="SearchProducts" />
+</div>
+
     </header>
     
         <div class="container">
@@ -37,9 +40,16 @@
                 <h3>Filter by Category</h3>
                 <asp:DropDownList ID="ddlCategory" runat="server" AutoPostBack="true" OnSelectedIndexChanged="FilterByCategory"></asp:DropDownList>
 
-                <h3>Filter by Price</h3>
+                <%--<h3>Filter by Price</h3>
                 <input type="range" id="priceRange" min="0" max="1000" step="10" />
-                <span id="priceValue">$0 - $1000</span>
+                <span id="priceValue">$0 - $1000</span>--%>
+                <h3>Filter by Price</h3>
+<input type="range" id="priceRange" min="0" max="10000" step="10" runat="server" />
+<span id="priceValue">$0 - $1000</span>
+<asp:HiddenField ID="hfPrice" runat="server" />
+
+<asp:Button ID="btnFilterPrice" runat="server" Text="Apply Price Filter" CssClass="filter-button" OnClick="FilterByPrice" />
+
             </aside>
             <asp:Label ID="lblNoProducts" runat="server" Text="No products found." CssClass="no-products" Visible="false"></asp:Label>
             <!-- Main Product Display Section -->

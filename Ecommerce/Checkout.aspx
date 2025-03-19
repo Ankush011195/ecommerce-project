@@ -67,12 +67,23 @@
             <!-- Payment Options -->
             <fieldset class="section">
                 <legend>💳 Payment Method</legend>
-                <asp:RadioButtonList ID="rblPaymentMethod" runat="server" CssClass="radio-list">
+                <asp:RadioButtonList ID="rblPaymentMethod" runat="server" CssClass="radio-list" AutoPostBack="true"
+                    OnSelectedIndexChanged="rblPaymentMethod_SelectedIndexChanged">
                     <asp:ListItem Value="COD" Selected="True">Cash on Delivery</asp:ListItem>
                     <asp:ListItem Value="CreditCard">Credit/Debit Card</asp:ListItem>
                     <asp:ListItem Value="UPI">UPI / Bank Transfer</asp:ListItem>
                 </asp:RadioButtonList>
             </fieldset>
+
+          <!-- UPI Payment Details -->
+            <div id="upiSection" runat="server" visible="false" class="payment-section">
+                <h3>Scan & Pay via UPI</h3>
+<img src="https://c8.alamy.com/comp/2CPY9P2/assam-india-september-18-2020-upi-logo-on-phone-screen-stock-image-2CPY9P2.jpg" 
+     alt="UPI QR Code" class="upi-qr-code" />
+
+                <label>Enter UPI Transaction ID:</label>
+                <asp:TextBox ID="txtUPITransactionID" runat="server" CssClass="form-control" Placeholder="Enter Transaction ID"></asp:TextBox>
+            </div>
 
             <!-- Final Order Review -->
             <div class="total-section">

@@ -14,11 +14,11 @@ namespace Ecommerce
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (!IsPostBack)  // Prevents resetting dropdown on postback
             {
                 LoadCategories();
-                LoadProductCategories();// Load categories into dropdown
-                LoadProducts();    // Load all products initially
+                LoadProductCategories();
+                LoadProducts();
             }
         }
 
@@ -28,7 +28,7 @@ namespace Ecommerce
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["EcommerceDB"].ConnectionString))
             {
                 conn.Open();
-                string query = "SELECT CategoryID, CategoryName FROM ProductCategories"; // Use correct table name
+                string query = "SELECT CategoryID, CategoryName FROM ProductCategories";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 using (SqlDataAdapter da = new SqlDataAdapter(cmd))
@@ -41,12 +41,13 @@ namespace Ecommerce
                 }
             }
         }
+
         private void LoadCategories()
         {
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["EcommerceDB"].ConnectionString))
             {
                 conn.Open();
-                string query = "SELECT CategoryID, CategoryName FROM Categories"; // Use correct table name
+                string query = "SELECT CategoryID, CategoryName FROM Categories";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 using (SqlDataAdapter da = new SqlDataAdapter(cmd))
@@ -54,8 +55,14 @@ namespace Ecommerce
                     DataTable dt = new DataTable();
                     da.Fill(dt);
 
+                    // Add "All Categories" option
+                    DataRow dr = dt.NewRow();
+                    dr["CategoryID"] = 0;
+                    dr["CategoryName"] = "All Categories";
+                    dt.Rows.InsertAt(dr, 0);
+
                     ddlCategory.DataSource = dt;
-                    ddlCategory.DataTextField = "CategoryName"; 
+                    ddlCategory.DataTextField = "CategoryName";
                     ddlCategory.DataValueField = "CategoryID";
                     ddlCategory.DataBind();
                 }
@@ -63,12 +70,12 @@ namespace Ecommerce
         }
 
         // 🔹 Load Products from Database
-        private void LoadProducts(string searchQuery = "", int categoryId = 0, int productsCategoryId = 0)
+        private void LoadProducts(string searchQuery = "", int categoryId = 0, int productsCategoryId = 0, int maxPrice=0)
         {
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["EcommerceDB"].ConnectionString))
             {
                 conn.Open();
-                string query = "SELECT ProductID, ProductName, Price, ImageUrl FROM Products WHERE IsActive = 1";
+                string query = "SELECT ProductID, ProductName, Price, ImageUrl, CategoryID FROM Products WHERE IsActive = 1";
 
                 if (!string.IsNullOrEmpty(searchQuery))
                 {
@@ -81,6 +88,10 @@ namespace Ecommerce
                 if (productsCategoryId > 0)
                 {
                     query += " AND ProductCategoryId = @ProductCategoryId";
+                }
+                if (maxPrice > 0)
+                {
+                    query += " AND Price <= @Price";
                 }
 
                 SqlCommand cmd = new SqlCommand(query, conn);
@@ -97,6 +108,18 @@ namespace Ecommerce
                 {
                     cmd.Parameters.AddWithValue("@ProductCategoryId", productsCategoryId);
                 }
+                if (maxPrice > 0)
+                {
+                    cmd.Parameters.AddWithValue("@Price", maxPrice);
+                }
+
+                // Debugging: Print query in browser console
+                string debugQuery = cmd.CommandText;
+                foreach (SqlParameter p in cmd.Parameters)
+                {
+                    debugQuery = debugQuery.Replace(p.ParameterName, p.Value.ToString());
+                }
+              //  Response.Write("<script>console.log('Query: " + debugQuery + "');</script>");
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -110,8 +133,18 @@ namespace Ecommerce
         // 🔹 Search Products
         protected void SearchProducts(object sender, EventArgs e)
         {
-            string searchQuery = Request.Form["txtSearch"]; // Get search value from input field
-            LoadProducts(searchQuery);
+            string searchQuery = txtSearch.Text.Trim();
+            int categoryId = 0;
+
+            if (ddlCategory.SelectedIndex > -1 && int.TryParse(ddlCategory.SelectedValue, out int selectedCategoryId))
+            {
+                categoryId = selectedCategoryId;
+            }
+
+            // Debugging: Show category ID in an alert box
+            Response.Write("<script>alert('Selected Category ID: " + categoryId + "');</script>");
+
+            LoadProducts(searchQuery, categoryId, 0);
         }
 
         // 🔹 Filter by Category
@@ -125,11 +158,27 @@ namespace Ecommerce
         {
             LinkButton btnCategory = (LinkButton)sender;
             int productsCategoryId = Convert.ToInt32(btnCategory.CommandArgument);
-            LoadProducts("", 0, productsCategoryId);  // Load products for selected category
+            LoadProducts("", 0, productsCategoryId);
         }
 
-        // 🔹 Add to Cart Functionality
-       
-    }
+        //protected void FilterByPrice(object sender, EventArgs e)
+        //{
+        //    int maxPrice = 9999999; // Default max price
 
+        //    if (!string.IsNullOrEmpty(hfPrice.Value) && int.TryParse(hfPrice.Value, out int selectedPrice))
+        //    {
+        //        maxPrice = selectedPrice;
+        //    }
+        //    LoadProducts("", Convert.ToInt32(ddlCategory.SelectedValue), 0, maxPrice);
+        //}
+        protected void FilterByPrice(object sender, EventArgs e)
+        {
+            int maxPrice = 0;
+            maxPrice=Convert.ToInt32( priceRange.Value);
+            LoadProducts("", Convert.ToInt32(ddlCategory.SelectedValue), 0, maxPrice);
+
+        }
+
+
+    }
 }
